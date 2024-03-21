@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div class="hero">
+      <nav>
+        <img src="./images/logo.png" class="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="character.html">Jobs180</a></li>
+        </ul>
+      </nav>
+      <div class="content">
+        <div class="profile-image">
+            <button type="button" style="background: transparent; border: none;" onclick="goToResume()">
+                <img src="./images/home.jpeg" alt="Your Image" />
+            </button>
+        </div>
+        <span class="title">Fullstack Developer</span>
+        <h1>Hello, I’m <br><span>JM N. Miranda</span></h1>
+        <p>
+            I'm currently studying at Phinma Araullo University South Campus, <br>19 years old taking BSIT from Araullo University and taking BSIT,<br>I've been pursuing my goal which I have dedicated to my family.
+        </p>
+        <a href="character.html" class="btn">More</a>
+      </div>
+    </div>
+    </div>
+    <script>
+      function goToResume() {
+          window.location.href = "https://docs.google.com/document/d/1WqNMP9QAHbsgqImMqmSUootV1fPlR6t4/edit?usp=sharing&ouid=115518465637841486339&rtpof=true&sd=true";
+      }
+  </script>
+  </body>
+</html>
